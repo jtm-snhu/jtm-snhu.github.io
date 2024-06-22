@@ -23,8 +23,8 @@ title: JT McGinty ePortfolio
 description: >- # this means to ignore newlines until "baseurl:"
   JT McGinty, BS Computer Science
   Project Portfolio
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jtm-snhu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "https://jtm-snhu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  jtm-snhu
 
