@@ -29,7 +29,8 @@ url: "https://jtm-snhu.github.io" # the base hostname & protocol for your site, 
 github_username:  jtm-snhu
 
 # Build settings
-remote_theme: /pages-themes/architect@v0.2.0
+theme: jekyll-theme-architect
+#remote_theme: /pages-themes/architect@v0.2.0
 #theme: minima
 plugins:
   - jekyll-remote-theme
