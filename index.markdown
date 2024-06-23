@@ -139,7 +139,7 @@ understands simple concepts of object-oriented programming and common
 constructs such as variables, classes, lists, and loops.
 
 I’ve included an analysis of the original Java code base and
-functionality of the program in a short \[informal code review
+functionality of the program in a short [informal code review
 video\](/assets/CodeReview.mp4).
 
 ## Enhancement Goals
@@ -184,9 +184,9 @@ expected course outcomes:
     vulnerabilities, mitigate design flaws, and ensure privacy and
     enhanced security of data and resources.
 
-A side-by-side comparison of the original artifact and the finished
+A side-by-side comparison of the original arti{:target="_blank"}fact and the finished
 enhanced artifact can be found in the main branch of my [CS-499
-repository](https://github.com/jtm-snhu/CS-499){:target="_blank"}. The original, functional artifact is stored in the app-java
+repository](https://github.com/jtm-snhu/CS-499). The original, functional artifact is stored in the app-java
 folder and the enhanced version is stored in the app-python folder.
 !MAIN REPOSITORY LINK!
 
@@ -227,7 +227,7 @@ passwords cannot be read.
 
 These factors demonstrate course outcomes 1, 3, 4, and 5 listed above.
 
-I have also included a brief narrative !NARRATIVE LINK! of my thoughts
+I have also included a [brief narrative](/narrative1) of my thoughts
 written as I was working on this enhancement.
 
 The source code for this stage of the enhancement can be viewed in the
