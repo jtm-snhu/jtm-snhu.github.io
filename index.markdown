@@ -28,6 +28,7 @@ to efficiently manage projects large and small.
 [Enhancement 3: Databases](#enhancement-3-databases)
 
 ## Collaborating In A Team Environment
+![Teamwork](/assets/teamwork-small.jpg)
 
 Thanks to courses such as CS-250, Software Development Lifecycle, I am
 familiar with both waterfall and agile project management methodologies
@@ -38,6 +39,7 @@ the sum of its parts when individuals work to keep each other updated
 and “in the loop” as the development process plays out.
 
 ## Communication With Stakeholders
+![Communication](/assets/communication-small.jpg)
 
 Several courses including project management, data analysis, and
 statistics helped me develop the skills necessary to communicate
@@ -50,6 +52,7 @@ change my communication methods depending on who I am speaking to and
 what they want (and I have the skills to do so effectively).
 
 ## Data Structures And Algorithms
+![Data](/assets/data-small.jpg)
 
 Courses such as CS-300, Data Structure Analysis and Design have given me
 a strong foundation in data structures and algorithms. As part of the
@@ -60,6 +63,7 @@ algorithms, and finally, comparing the performance of various
 combinations to determine the best solution for a hypothetical use case.
 
 ## Software Engineering And Databases
+![Software](/assets/software-small.jpg)
 
 Data analysis is an area of computer science that I am especially
 interested in. I have taken several extra elective courses dealing with
