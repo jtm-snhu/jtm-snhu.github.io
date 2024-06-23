@@ -140,7 +140,7 @@ constructs such as variables, classes, lists, and loops.
 
 I’ve included an analysis of the original Java code base and
 functionality of the program in a short [informal code review
-video\](/assets/CodeReview.mp4).
+video](/assets/CodeReview.mp4).
 
 ## Enhancement Goals
 
@@ -257,7 +257,7 @@ I have also included a [brief narrative](/narrative2) of my thoughts
 that was written as I was working on this enhancement.
 
 The source code for this stage of the enhancement can be viewed in the
-revision3 branch of the repository.
+[revision3 branch](https://github.com/jtm-snhu/CS-499/tree/revision3) of the repository.
 
 ## Enhancement 3: Databases
 
@@ -284,5 +284,5 @@ I have also included a [brief narrative](/narrative3) of my thoughts
 that was written as I was working on this enhancement.
 
 The source code for this stage of the enhancement can be viewed in the
-revision4 branch of the repository, which was ultimately merged into the
+[revision4 branch](https://github.com/jtm-snhu/CS-499/tree/revision4) of the repository, which was ultimately merged into the
 main branch.
