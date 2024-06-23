@@ -13,6 +13,28 @@ provided by computers, I also know the importance of a strong work
 ethic, professional discipline, effective communication, and the ability
 to efficiently manage projects large and small.
 
+[Collaborating In A Team Environment](#collaborating-in-a-team-environment)
+
+[Communication With Stakeholders](#communication-with-stakeholders)
+
+[Data Structures And Algorithms](#data-structures-and-algorithms)
+
+[Software Engineering And Databases](#software-engineering-and-databases)
+
+[Security](#security)
+
+[The Capstone Project](#the-capstone-project)
+
+[Starting Point Artifact](#starting-point-artifact)
+
+[Enhancement Goals](#enhancement-goals)
+
+[Enhancement 1: Software Design & Engineering](#enhancement-1-software-design-engineering)
+
+[Enhancement 2: Algorithms and Data Structures](#enhancement-2-algorithms-and-data-structures)
+
+[Enhancement 3: Databases](#enhancement-3-databases)
+
 ## Collaborating In A Team Environment
 
 Thanks to courses such as CS-250, Software Development Lifecycle, I am
@@ -125,7 +147,8 @@ understands simple concepts of object-oriented programming and common
 constructs such as variables, classes, lists, and loops.
 
 I’ve included an analysis of the original Java code base and
-functionality of the program in a short [informal code review](/assets/CodeReview.mp4) video.
+functionality of the program in a short \[informal code review
+video\](/assets/CodeReview.mp4).
 
 ## Enhancement Goals
 
