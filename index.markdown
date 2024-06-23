@@ -184,11 +184,10 @@ expected course outcomes:
     vulnerabilities, mitigate design flaws, and ensure privacy and
     enhanced security of data and resources.
 
-A side-by-side comparison of the original arti{:target="_blank"}fact and the finished
+A side-by-side comparison of the original artifact and the finished
 enhanced artifact can be found in the main branch of my [CS-499
 repository](https://github.com/jtm-snhu/CS-499). The original, functional artifact is stored in the app-java
 folder and the enhanced version is stored in the app-python folder.
-!MAIN REPOSITORY LINK!
 
 ## Enhancement 1: Software Design & Engineering
 
@@ -231,7 +230,7 @@ I have also included a [brief narrative](/narrative1) of my thoughts
 written as I was working on this enhancement.
 
 The source code for this stage of the enhancement can be viewed in the
-revision2 branch of the repository.
+[revision2 branch](https://github.com/jtm-snhu/CS-499/tree/revision2) of the repository.
 
 ## Enhancement 2: Algorithms and Data Structures
 
@@ -254,7 +253,7 @@ outperforms the others by a significant amount.
 This portion of the enhancements demonstrates course outcome 3, listed
 above.
 
-I have also included a brief narrative !NARRATIVE LINK! of my thoughts
+I have also included a [brief narrative](/narrative2) of my thoughts
 that was written as I was working on this enhancement.
 
 The source code for this stage of the enhancement can be viewed in the
@@ -280,6 +279,9 @@ user passwords in an encrypted form.
 
 This portion of the enhancements demonstrates course outcomes 3, 4, and
 5 listed above.
+
+I have also included a [brief narrative](/narrative3) of my thoughts
+that was written as I was working on this enhancement.
 
 The source code for this stage of the enhancement can be viewed in the
 revision4 branch of the repository, which was ultimately merged into the

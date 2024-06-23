@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: narrative1
 ---
 **Project Narrative**
