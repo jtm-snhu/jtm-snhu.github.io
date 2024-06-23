@@ -91,7 +91,7 @@ anything more than what they absolutely need to carry out their job.
 Access levels should be consistently monitored and managed and entry
 points should be routinely tested for weaknesses or breaches.
 
-# Artifact Enhancement Capstone Project
+# The Capstone Project
 
 The bachelor program capstone project involved the enhancement of one or
 more artifacts from past classes of the student's choice in three key
@@ -125,8 +125,7 @@ understands simple concepts of object-oriented programming and common
 constructs such as variables, classes, lists, and loops.
 
 I’ve included an analysis of the original Java code base and
-functionality of the program in a short informal code review video.
-!CODE REVIEW LINK!
+functionality of the program in a short [informal code review](/assets/CodeReview.mp4) video.
 
 ## Enhancement Goals
 
