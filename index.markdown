@@ -13,9 +13,9 @@ provided by computers, I also know the importance of a strong work
 ethic, professional discipline, effective communication, and the ability
 to efficiently manage projects large and small.
 
-##Table Of Contents
-[Collaborating In A Team Environment](#collaborating-in-a-team-environment)
-[Communication With Stakeholders](#communication-with-stakeholders)
+### Table Of Contents
+[Collaborating In A Team Environment](#collaborating-in-a-team-environment)</br>
+[Communication With Stakeholders](#communication-with-stakeholders)</br>
 [Data Structures And Algorithms](#data-structures-and-algorithms)
 [Software Engineering And Databases](#software-engineering-and-databases)
 [Security](#security)
