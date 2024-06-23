@@ -1,4 +1,4 @@
-I began work on my Bachelor of Science in computer science at SNHU in
+I began work on my Bachelor of Science in Computer Science at SNHU in
 October 2021. I received my associate degree in January of 2023 and
 finished coursework for my bachelor’s degree in June of 2024.
 
