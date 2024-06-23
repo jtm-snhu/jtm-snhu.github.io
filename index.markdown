@@ -123,6 +123,7 @@ areas:
 - Databases
 
 ## Starting Point Artifact
+![Starting Point](/assets/starting-small.jpg)
 
 I chose to start with the course project from one of my first-year
 courses, IT-145: Foundations in Application Development. Throughout the
@@ -148,7 +149,7 @@ functionality of the program in a short [informal code review
 video](/assets/CodeReview.mp4).
 
 ## Enhancement Goals
-
+![Goals](/assets/goals-small.jpg)
 I chose to use this single artifact to meet all of the required
 enhancement goals for the capstone project. My goal was to convert the
 original Java application into a fully functional Python-based web
@@ -195,7 +196,7 @@ repository](https://github.com/jtm-snhu/CS-499). The original, functional artifa
 folder and the enhanced version is stored in the app-python folder.
 
 ## Enhancement 1: Software Design & Engineering
-
+![Software](/assets/software2-small.jpg)
 The final product barely resembles the original artifact. It was
 completely rewritten from scratch in Python. The simple numeric menu
 system is replaced by an intuitive web interface that allows the user to
@@ -238,7 +239,7 @@ The source code for this stage of the enhancement can be viewed in the
 [revision2 branch](https://github.com/jtm-snhu/CS-499/tree/revision2) of the repository.
 
 ## Enhancement 2: Algorithms and Data Structures
-
+![Algorithms](/assets/algorithms-small.jpg)
 For this enhancement, I added functions to the base code that gauge
 performance of three different sort algorithms by generating a list of
 100,000 animal objects, randomizing that list, and finally sorting into
@@ -265,7 +266,7 @@ The source code for this stage of the enhancement can be viewed in the
 [revision3 branch](https://github.com/jtm-snhu/CS-499/tree/revision3) of the repository.
 
 ## Enhancement 3: Databases
-
+![Databases](/assets/databases-small.jpg)
 The most obvious evidence of meeting the requirements for the third
 category enhancement is that the application now uses a database for
 persistent storage of information. As it is, the application uses SQLite
