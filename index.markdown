@@ -20,7 +20,7 @@ to efficiently manage projects large and small.
 [Software Engineering And Databases](#software-engineering-and-databases)</br>
 [Security](#security)
 
-### [The Capstone Project](#the-capstone-project)
+### The Capstone Project
 [Starting Point Artifact](#starting-point-artifact)</br>
 [Enhancement Goals](#enhancement-goals)</br>
 [Enhancement 1: Software Design & Engineering](#enhancement-1-software-design-engineering)</br>
@@ -90,6 +90,7 @@ of writing unit tests that help ensure all my code is not just
 functional but produces the intended results consistently and reliably.
 
 ## Security
+![Security](/assets/security-small.jpg)
 
 Security is, of course, a core principle in any type of computer science
 role. From software development to data storage and analysis, it is the
