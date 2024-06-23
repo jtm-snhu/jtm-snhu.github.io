@@ -28,6 +28,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #twitter_username: jekyllrb
 github_username:  jtm-snhu
 show_downloads: false
+permalink: /:title/
 
 # Build settings
 remote_theme: pages-themes/architect@v0.2.0

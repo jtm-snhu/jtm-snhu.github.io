@@ -13,18 +13,18 @@ provided by computers, I also know the importance of a strong work
 ethic, professional discipline, effective communication, and the ability
 to efficiently manage projects large and small.
 
-### Table Of Contents
+### Core Skills and Experience
 [Collaborating In A Team Environment](#collaborating-in-a-team-environment)</br>
 [Communication With Stakeholders](#communication-with-stakeholders)</br>
-[Data Structures And Algorithms](#data-structures-and-algorithms)
-[Software Engineering And Databases](#software-engineering-and-databases)
+[Data Structures And Algorithms](#data-structures-and-algorithms)</br>
+[Software Engineering And Databases](#software-engineering-and-databases)</br>
 [Security](#security)
 
 ### [The Capstone Project](#the-capstone-project)
-[Starting Point Artifact](#starting-point-artifact)
-[Enhancement Goals](#enhancement-goals)
-[Enhancement 1: Software Design & Engineering](#enhancement-1-software-design-engineering)
-[Enhancement 2: Algorithms and Data Structures](#enhancement-2-algorithms-and-data-structures)
+[Starting Point Artifact](#starting-point-artifact)</br>
+[Enhancement Goals](#enhancement-goals)</br>
+[Enhancement 1: Software Design & Engineering](#enhancement-1-software-design-engineering)</br>
+[Enhancement 2: Algorithms and Data Structures](#enhancement-2-algorithms-and-data-structures)</br>
 [Enhancement 3: Databases](#enhancement-3-databases)
 
 ## Collaborating In A Team Environment
@@ -185,8 +185,8 @@ expected course outcomes:
     enhanced security of data and resources.
 
 A side-by-side comparison of the original artifact and the finished
-enhanced artifact can be found in the main branch of my CS-499
-repository. The original, functional artifact is stored in the app-java
+enhanced artifact can be found in the main branch of my [CS-499
+repository](https://github.com/jtm-snhu/CS-499){:target="_blank"}. The original, functional artifact is stored in the app-java
 folder and the enhanced version is stored in the app-python folder.
 !MAIN REPOSITORY LINK!
 
