@@ -1,10 +1,3 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: default
----
-
 I began work on my Bachelor of Science in computer science at SNHU in
 October 2021. I received my associate degree in January of 2023 and
 finished coursework for my bachelor’s degree in June of 2024.
@@ -91,7 +84,189 @@ security of systems and sensitive information. During my studies at SNHU
 I have developed an ingrained security-conscious mindset. No matter if I
 am working on code or searching for something in a database, I am always
 careful to make sure that I am not creating (and indeed preventing)
-security holes. I fully believe in the concept that no user should have
-access to anything more than what they absolutely need to carry out
-their job. Access levels should be consistently monitored and managed
-and entry points should be routinely tested for weaknesses or breaches.
+security holes.
+
+I fully believe in the concept that no user should have access to
+anything more than what they absolutely need to carry out their job.
+Access levels should be consistently monitored and managed and entry
+points should be routinely tested for weaknesses or breaches.
+
+# Artifact Enhancement Capstone Project
+
+The bachelor program capstone project involved the enhancement of one or
+more artifacts from past classes of the student's choice in three key
+areas:
+
+- Software design and engineering
+
+- Algorithms and data structures
+
+- Databases
+
+## Starting Point Artifact
+
+I chose to start with the course project from one of my first-year
+courses, IT-145: Foundations in Application Development. Throughout the
+course, students were guided through creating a basic Java application
+with a command line interface and simple menu system.
+
+The hypothetical use case for the application is a rescue animal
+organization that provides animals to assist people with disabilities
+such as a blind person, or someone confined to a wheelchair. The
+application is basically an inventory management program used to keep
+track of various characteristics of the animals in use by the
+organization.
+
+As is, the application works only in memory with a small amount of
+demonstration data generated within the code. No database interface
+exists and there is no persistent storage. Although it is functional,
+the program serves only as a very basic indication that the student
+understands simple concepts of object-oriented programming and common
+constructs such as variables, classes, lists, and loops.
+
+I’ve included an analysis of the original Java code base and
+functionality of the program in a short informal code review video.
+!CODE REVIEW LINK!
+
+## Enhancement Goals
+
+I chose to use this single artifact to meet all of the required
+enhancement goals for the capstone project. My goal was to convert the
+original Java application into a fully functional Python-based web
+application that could be put to real use. The finished product was
+developed using the Flask web application framework and the Bulma CSS
+framework.
+
+Although a virtually infinite number of tweaks and changes could be made
+to tailor the program for more specific use cases, it is an example of a
+working application that could be used in a real-world, multi-user
+environment to allow both local and distributed teams to manage rescue
+animal inventory in real-time.
+
+In addition to making artifact enhancements in specific categories, the
+capstone project goals also include practical demonstration of several
+expected course outcomes:
+
+1.  Employ strategies for building collaborative environments that
+    enable diverse audiences to support organizational decision making
+    in the field of computer science.
+
+2.  Design, develop, and deliver professional-quality oral, written, and
+    visual communications that are coherent, technically sound, and
+    appropriately adapted to specific audiences and contexts.
+
+3.  Design and evaluate computing solutions that solve a given problem
+    using algorithmic principles and computer science practices and
+    standards appropriate to its solution, while managing the trade-offs
+    involved in design choices.
+
+4.  Demonstrate an ability to use well-founded and innovative
+    techniques, skills, and tools in computing practices for the purpose
+    of implementing computer solutions that deliver value and accomplish
+    industry-specific goals.
+
+5.  Develop a security mindset that anticipates adversarial exploits in
+    software architecture and designs to expose potential
+    vulnerabilities, mitigate design flaws, and ensure privacy and
+    enhanced security of data and resources.
+
+A side-by-side comparison of the original artifact and the finished
+enhanced artifact can be found in the main branch of my CS-499
+repository. The original, functional artifact is stored in the app-java
+folder and the enhanced version is stored in the app-python folder.
+!MAIN REPOSITORY LINK!
+
+## Enhancement 1: Software Design & Engineering
+
+The final product barely resembles the original artifact. It was
+completely rewritten from scratch in Python. The simple numeric menu
+system is replaced by an intuitive web interface that allows the user to
+list, filter, and edit items. Multiple filters can be applied to search
+and sort operations, allowing for granular control over the returned
+results.
+
+The interface navigation buttons displayed on the top-right corner of
+the screen also change to reflect only the operations to which the user
+has access. Authenticated users, for example, will see a logout button
+while unauthenticated users will be presented with login and signup
+buttons. Forms and fields are also tailored to incorporate
+characteristics specific enough to be used for managing animals, but
+general enough to allow the flexibility of storing meaningful data for
+multiple types of animals.
+
+Whereas the original application was designed to run as a single
+instance on a single computer, the new application can be hosted on a
+central server and accessed via browser by anyone, anywhere. It can be
+used by individuals in the same office or in different countries. No
+matter where they are, anyone using the application will see inventory
+updates in real-time.
+
+In addition to the enhancements made to pre-existing functions from the
+original application, this new application also provides several layers
+of security. The most obvious change is that the application requires
+users to sign up and login before they can carry out any operations.
+“Under the hood”, however, the system generates CSRF security tokens and
+validates all form input data to prevent cross site request forgery.
+User passwords are also hashed and stored in the database in an
+encrypted form so that even with physical access to the database,
+passwords cannot be read.
+
+These factors demonstrate course outcomes 1, 3, 4, and 5 listed above.
+
+I have also included a brief narrative !NARRATIVE LINK! of my thoughts
+written as I was working on this enhancement.
+
+The source code for this stage of the enhancement can be viewed in the
+revision2 branch of the repository.
+
+## Enhancement 2: Algorithms and Data Structures
+
+For this enhancement, I added functions to the base code that gauge
+performance of three different sort algorithms by generating a list of
+100,000 animal objects, randomizing that list, and finally sorting into
+ascending order based on the ID of each object.
+
+The internal Python Tim sort function is used along with custom pivot
+and merge sort algorithms. To test each algorithm, 100k animal objects
+are generated in a standard Python list. That list is then shuffled into
+a random order. At that point, a copy of the list is made for each
+sorting algorithm to work on, ensuring that each algorithm starts with
+the same data. A timing function is then used to measure how much time
+it takes for each sort method to put the list back into ascending order.
+
+As you might have guessed, the Tim sort method used by Python
+outperforms the others by a significant amount.
+
+This portion of the enhancements demonstrates course outcome 3, listed
+above.
+
+I have also included a brief narrative !NARRATIVE LINK! of my thoughts
+that was written as I was working on this enhancement.
+
+The source code for this stage of the enhancement can be viewed in the
+revision3 branch of the repository.
+
+## Enhancement 3: Databases
+
+The most obvious evidence of meeting the requirements for the third
+category enhancement is that the application now uses a database for
+persistent storage of information. As it is, the application uses SQLite
+to store both user and animal inventory information. A trivial change in
+the code can also be made to use another SQL database platform such as
+MySQL or PostgreSQL.
+
+The application provides full CRUD capabilities, allowing users to add,
+edit, and delete animals and create users authorized to access the
+application.
+
+In addition to providing information storage, the fully implemented
+database functionality also serves as part of the system’s security
+measures by allowing for the authentication of users and storing all
+user passwords in an encrypted form.
+
+This portion of the enhancements demonstrates course outcomes 3, 4, and
+5 listed above.
+
+The source code for this stage of the enhancement can be viewed in the
+revision4 branch of the repository, which was ultimately merged into the
+main branch.
